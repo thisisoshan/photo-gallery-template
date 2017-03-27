@@ -1,0 +1,25 @@
+html, body {
+	height: 100%;
+	width: 100%;
+}
+body {
+	margin: 0;
+	padding: 0;
+	display: table;
+}
+.container {
+	width: auto;
+	height: auto;
+	margin: auto;
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+	overflow: hidden;
+}
+#wrapper {
+	width: 80%;
+	height: auto;
+}
+#wrapper[attr="src"] {
+	transition: all 1.0s ease;
+}
