@@ -15,11 +15,13 @@ body {
 	vertical-align: middle;
 	text-align: center;
 	overflow: hidden;
+	opacity: 0.0;
+	transition: opacity 1.0s ease;
 }
 #wrapper {
 	width: 80%;
 	height: auto;
 }
-#wrapper[attr="src"] {
-	transition: all 1.0s ease;
+.opaque {
+	opacity: 1.0;
 }

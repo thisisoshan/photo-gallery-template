@@ -19,7 +19,6 @@ function changeImage() {
     }
     setImage();
 }
-
 $(document).ready(
 	function myFunction() {
     	myVar = setInterval(changeImage, 6000);
@@ -29,3 +28,6 @@ function setImage() {
 	document.getElementById("wrapper").src = "img/img-"+count+".jpg";
 	$("#wrapper").addClass(x);
 }
+window.onload = function(){
+	$(".container").css("opacity", "1.0");
+};
